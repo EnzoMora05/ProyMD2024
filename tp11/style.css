@@ -1,0 +1,58 @@
+p {
+color: rgb(0, 0, 0);
+}
+
+.cajaDeTarjetas {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.tarjeta {
+    background-color: rgb(255, 208, 0);
+    width: 250px;
+    height: 300px;
+    margin: 10px;
+    padding: 10px;
+    display: inline-block;
+}
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    background-color: rgb(255, 255, 255);
+}
+
+.header {
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 85px;
+    padding: 5px 10%;
+}
+
+.header .logo {
+    cursor: pointer;
+}
+
+.contenedorDeImagen{
+    display: flex;
+    justify-content: center;
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+    background-color: aqua;
+    overflow: hidden;
+}
+
+.header .logo {
+    height: 70px;
+    width: auto;
+    transition: all 0.3s;
+}
